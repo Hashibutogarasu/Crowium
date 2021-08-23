@@ -1,0 +1,98 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "cef.redist.x64/92.0.26": {},
+      "cef.redist.x86/92.0.26": {},
+      "CefSharp.Common/92.0.260": {
+        "dependencies": {
+          "cef.redist.x64": "92.0.26",
+          "cef.redist.x86": "92.0.26"
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/lib/netcoreapp3.0/CefSharp.Core.Runtime.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "92.0.260.0",
+            "fileVersion": "92.0.260.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/CefSharp.Core.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "92.0.260.0",
+            "fileVersion": "92.0.260.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/CefSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "92.0.260.0",
+            "fileVersion": "92.0.260.0"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.0/CefSharp.Core.Runtime.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "assemblyVersion": "92.0.260.0",
+            "fileVersion": "92.0.260.0"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.0/CefSharp.Core.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "assemblyVersion": "92.0.260.0",
+            "fileVersion": "92.0.260.0"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.0/CefSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "assemblyVersion": "92.0.260.0",
+            "fileVersion": "92.0.260.0"
+          }
+        }
+      },
+      "CefSharp.WinForms/92.0.260": {
+        "dependencies": {
+          "CefSharp.Common": "92.0.260"
+        },
+        "runtime": {
+          "lib/net452/CefSharp.WinForms.dll": {
+            "assemblyVersion": "92.0.260.0",
+            "fileVersion": "92.0.260.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cef.redist.x64/92.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wwwSGVgO9sdlj5TRnjVdzuCkNuYpTOXT90Z+dasnqGrnihrxKU+1UvulxxJa83O2k+l3kaNlAU9uBhiwGX7YyQ==",
+      "path": "cef.redist.x64/92.0.26",
+      "hashPath": "cef.redist.x64.92.0.26.nupkg.sha512"
+    },
+    "cef.redist.x86/92.0.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VT93sU6hH7LoUILjfaAxWbLc+m+b9QafeeRkuulnj3twJnb0PQ7nXd8PMUeOmYg96NzZi14G7qBYSY0dkxqztg==",
+      "path": "cef.redist.x86/92.0.26",
+      "hashPath": "cef.redist.x86.92.0.26.nupkg.sha512"
+    },
+    "CefSharp.Common/92.0.260": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0KS5z+kqg+mmB1X2KM17w3S7KQI5UTuJv+UOIQauJPvFYfRGWwTqmBbBxL3kCklGx8WSkaeBjPdSFxdzzXCSew==",
+      "path": "cefsharp.common/92.0.260",
+      "hashPath": "cefsharp.common.92.0.260.nupkg.sha512"
+    },
+    "CefSharp.WinForms/92.0.260": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b7Opq/TELgJO/cdqyAOeRCDRM+EskaoZeC02cZaIb+KsxUr+lGzX9mzspddT29x9U0JL2KqChwChHqOnWnu6ew==",
+      "path": "cefsharp.winforms/92.0.260",
+      "hashPath": "cefsharp.winforms.92.0.260.nupkg.sha512"
+    }
+  }
+}

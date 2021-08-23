@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "PUjOehQN9qfcsZB5eVmh9JbI3/M/5XOYrmrgEUF81WBWiJ/8vRQsWvHrQHKvU6+m8t/tbccfef2aekBqdUzoHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\crow\\source\\repos\\Crowium\\Crowium\\Crowium.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\crow\\.nuget\\packages\\cef.redist.x64\\92.0.26\\cef.redist.x64.92.0.26.nupkg.sha512",
+    "C:\\Users\\crow\\.nuget\\packages\\cef.redist.x86\\92.0.26\\cef.redist.x86.92.0.26.nupkg.sha512",
+    "C:\\Users\\crow\\.nuget\\packages\\cefsharp.common\\92.0.260\\cefsharp.common.92.0.260.nupkg.sha512",
+    "C:\\Users\\crow\\.nuget\\packages\\cefsharp.winforms\\92.0.260\\cefsharp.winforms.92.0.260.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "パッケージ 'CefSharp.WinForms 92.0.260' はプロジェクトのターゲット フレームワーク '.NETCoreApp,Version=v3.1' ではなく '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' を使用して復元されました。このパッケージは、使用しているプロジェクトとの完全な互換性がない可能性があります。",
+      "libraryId": "CefSharp.WinForms",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
